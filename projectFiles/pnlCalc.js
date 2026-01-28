@@ -1,0 +1,1 @@
+PnL = (SellPrice-BuyPrice) * Quantity

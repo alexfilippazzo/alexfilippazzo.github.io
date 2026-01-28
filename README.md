@@ -1,9 +1,13 @@
 # Investment Calculator
-A calculator designed for all types of investors. Used to calculate profit/loss, percentage gain, etc.
-Useful when calculating expected returns on past or future investments.
+A simple investment calculator designed for all types of investors.
+This tool helps you quickly calculate profit or loss, percentage gain, and overall investment performance based on your input.
+Ideal for evaluating past investments or estimating future returns.
 
 ## Installation 
+No installation required.
+This calculator is web-based and can be accessed directly through your browser.
 
 ## Usage 
-Input initial investment, final price.
-Output will give profit/loss and %gain.
+Use this calculator for investment needs. initial investment, final price. Output will give profit/loss and %gain.
+
+### Authors

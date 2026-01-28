@@ -11,10 +11,10 @@ This calculator is web-based and can be accessed directly through your browser.
 1. Enter your initial investment amount (buy price or total invested).
 2. Enter the final value (sell price or current value).
 3. The calculator will display:
-- Total profit or loss
-- Percentage gain or loss
+Total profit or loss
+Percentage gain or loss
 
-*Use this tool to analyze investment performance, compare scenarios, or plan future investments.
+Use this tool to analyze investment performance, compare scenarios, or plan future investments.
 
 ### Authors
 - Alexander Filippazzo

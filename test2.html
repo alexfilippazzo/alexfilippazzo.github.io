@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculators</title>
+    
+    <style> 
+        body { 
+            background-color: #4a6171;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Calculator bar for the title */
+        .calculator-bar {
+            background-color: #1722e2; /* light blue background */
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #1722e2;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            color: #ebeaea;
+        }   
+
+        /*Grid container*/
+        .calculator-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px ,1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        /*calculatorcard*/
+          .calculator-card {
+            background-color: rgb(46, 132, 202);
+            border-radius: 10px;
+            text-decoration: none;
+            color: #efefef;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(60, 0, 400, 0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: x-large;
+        }
+          /* Image/Icon */
+        .calculator-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        .calculator-card h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            
+        }
+
+        .calculator-card p {
+            font-size: 0.95em;
+            color: #ffffff;
+        } 
+
+        /* Calculator links styled as boxes */
+        .calculator-link {
+            display: block; /* makes the whole link clickable */
+            text-decoration: none;
+            background-color: #4c56af;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px auto;
+            max-width: 600px;
+            transition: all 0.3s;
+        }
+
+        .calculator-card:hover {
+            background-color: #0b113b;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Separate bar for the title -->
+    <div class="calculator-bar">
+        <h1><b>Choose a Calculator</b></h1>
+    </div>
+
+    <div class="calculator-grid">
+
+    <!-- Calculator card -->
+    <a href="profitloss.html" class="calculator-card">
+        <h2>Profit & Loss</h2>
+        <p>Estimate your potiential gain or loss on investments.</p>
+    </a>
+
+    <a href="compound-interest.html" class="calculator-card">
+        <h2>Compound Interest</h2>
+        <p>Find out how much your investments will make you in the future.</p>
+    </a>
+
+</body>
+
+</html>

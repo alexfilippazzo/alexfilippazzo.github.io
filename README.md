@@ -8,13 +8,7 @@ No installation required.
 This calculator is web-based and can be accessed directly through your browser.
 
 ## Usage 
-Running on web browser.
-Enter your initial investment amount (buy price or total invested).
-Enter the final value (sell price or current value).
-The calculator will display: Total profit or loss & Percentage gain or loss.
-
-
-Use this tool to analyze investment performance, compare scenarios, or plan future investments.
+Running on web browser. Useful tool for analyzing investment performance, compare scenarios, or plan future investments. Features a percentage gain calculator, compound interest calculator, and more.
 
 ### Authors
 Alexander Filippazzo & Alessando Zalunardo

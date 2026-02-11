@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculators</title>
+    <style> 
+        body { 
+            background-color: #b7cdf4;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Calculator bar for the title */
+        .calculator-bar {
+            background-color: #038940; /* light blue background */
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #038940;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+            color: #ebeaea;
+        }   
+
+        /* Calculator links styled as boxes */
+        .calculator-link {
+            display: block; /* makes the whole link clickable */
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px auto;
+            max-width: 600px;
+            transition: all 0.3s;
+        }
+
+        .calculator-link:hover {
+            background-color: #45a049;
+        }
+
+        /* Small description inside the link */
+        .calculator-link p {
+            margin: 5px 0 0 0;
+            color: #f1f1f1;
+        }
+
+        .calculator-link h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Separate bar for the title -->
+    <div class="calculator-bar">
+        <h1><b>Choose a Calculator</b></h1>
+    </div>
+
+    <!-- Calculator links -->
+    <a href="cashflow.html" class="calculator-link">
+        <h2>Cash Flow</h2>
+        <p>Estimate your positive or negative monthly cash flow.</p>
+    </a>
+
+    <a href="compound-interest.html" class="calculator-link">
+        <h2>Compound Interest</h2>
+        <p>Find out how much your investments will make you in the future.</p>
+    </a>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+//entry point
+calculate fatgrams inputfoodname inputfatgramsinputnumberofservings
+
+//gets input from user 
+Start
+
+declare string inputfoodName
+declare real inputfatgrams
+declare real inputnumberofserving 
+
+display "what is the name of the food"
+input inputfoodName
+
+display "whats the amount of fat grams
+input inputfatgrams
+
+display "whats the number of serving"
+input inputnumberofserving
+
+
+//caluclation
+
+declare real totalfatcalories = inputfatGrams * cals_per_fat_gram
+declare real fat caloriesperserving = totalfatcalories/ inputfatgramsinputnumberofservings
+display "$ (inputfoodname) has (totalfatcalories) fat calories perseving"
+
+
+
+
+
+end
